@@ -1,7 +1,7 @@
 import java.time.LocalDateTime;
 
     public class YearlyTask extends Task {
-        public YearlyTask(TaskType title, String description, String taskType, LocalDateTime date) throws WrongInputException {
+        public YearlyTask(String title, String description, String taskType, LocalDateTime date) throws WrongInputException {
             super(title, description, taskType, date);
         }
 
